@@ -21,3 +21,6 @@ Route::get('/anggota',[datacontroller::class,'index']);
 Route::get('/anggota/cari',[datacontroller::class,'cari']);
 Route::get('/anggota/lain',[datacontroller::class,'join']);
 Route::get('/anggota/angel',[datacontroller::class,'masuk']);
+
+
+//Risma Auna F. (1461900027)
