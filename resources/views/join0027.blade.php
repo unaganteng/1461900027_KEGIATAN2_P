@@ -1,4 +1,4 @@
-<a href="/anggota" class="text-sm text-gray-700 underline">Klik disini</a>
+<a href="/anggota" class="text-sm text-gray-700 underline">Home</a>
     <body>
     <h3>Risma Auna (1461900027)</h3>
     <h3>Data Anggota dengan Inner Join</h3>
