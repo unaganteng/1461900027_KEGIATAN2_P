@@ -1,21 +1,16 @@
+
 <a href="/anggota" class="text-sm text-gray-700 underline">Home</a>
     <body>
     <h3>Risma Auna (1461900027)</h3>
     <h3>Data Anggota dengan Inner Join</h3>
-    <p>Cari anggota :</p>
+    <h4>Cari anggota :</h4>
     <form action="/anggota/cari" method="GET">
     <input type="text" name="lihat" placeholder="isikan disini" value="{{ old('cari') }}">
-    <input type="submit" value="CARI">
+    <input type="submit" value="telusuri">
     </form>
-    <p>Menampilkan Daftar Peminjaman:</p>
-    <form action="/anggota/lain" method="GET">
-    <input type="text" name="lihat" placeholder="langsung klik tampilkan" value="{{ old('cari') }}">
-    <input type="submit" value="Tampilkan">
+    
     </form>
-    <p>Cari Peminjam :</p>
-    <form action="/anggota/angel" method="GET">
-    <input type="text" name="lihat" placeholder="isikan disini" value="{{ old('cari') }}">
-    <input type="submit" value="CARI">
+
     </form>
         <div style="overflow-x:auto;">
             <table>

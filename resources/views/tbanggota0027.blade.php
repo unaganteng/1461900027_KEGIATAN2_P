@@ -6,21 +6,16 @@
 <body>
 <h2>TUGAS KEGIATAN 2</h2>
 <h3>Menampilkan Daftar Anggota Perpustakaan</h3>
-<p>Cari anggota :</p>
-<form action="/anggota/cari" method="GET">
-<input type="text" name="lihat" placeholder="isikan disini .." value="{{ old('cari') }}">
-<input type="submit" value="CARI">
+
 </form>
-<p>Cek Tanggal Peminjaman:</p>
+<p>Mencari Data Anggota</p>
 <form action="/anggota/lain" method="GET">
-<input type="text" name="lihat" placeholder="isikan disini .." value="{{ old('cari') }}">
-<input type="submit" value="CARI">
+
+<input type="submit" value="Berikutnya">
 </form>
-<p>Cari Peminjam :</p>
-<form action="/anggota/angel" method="GET">
-<input type="text" name="lihat" placeholder="isikan disini .." value="{{ old('cari') }}">
-<input type="submit" value="CARI">
+
 </form>
+<p>Daftar Peminjam</p>
 <table border="1">
 <tr>
 <th>Id</th>
