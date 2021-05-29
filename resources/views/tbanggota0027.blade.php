@@ -4,8 +4,8 @@
 <title>Kegiatan 2</title>
 </head>
 <body>
-<h2>Risma Auna</h2>
-<h3>Daftar Anggota</h3>
+<h2>TUGAS KEGIATAN 2</h2>
+<h3>Menampilkan Daftar Anggota Perpustakaan</h3>
 <p>Cari anggota :</p>
 <form action="/anggota/cari" method="GET">
 <input type="text" name="lihat" placeholder="isikan disini .." value="{{ old('cari') }}">
@@ -16,7 +16,7 @@
 <input type="text" name="lihat" placeholder="isikan disini .." value="{{ old('cari') }}">
 <input type="submit" value="CARI">
 </form>
-<p>Cari anggota :</p>
+<p>Cari Peminjam :</p>
 <form action="/anggota/angel" method="GET">
 <input type="text" name="lihat" placeholder="isikan disini .." value="{{ old('cari') }}">
 <input type="submit" value="CARI">
